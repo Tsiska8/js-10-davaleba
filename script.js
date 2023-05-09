@@ -1,6 +1,6 @@
 var x = 0;
 
-while(x < 15) {
-    document.write("Hello World!" + "");
+while(x < 11) {
+    document.write("Hello World!" + " ");
     x++;
 }
