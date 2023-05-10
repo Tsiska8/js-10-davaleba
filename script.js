@@ -1,6 +1,4 @@
-var x = 0;
+let text = "Hello world!" + "";
+let result = text.repeat(4);
 
-while(x < 11) {
-    document.write("Hello World!" + " ");
-    x++;
-}
+document.getElementById("demo").innerHTML = result;
